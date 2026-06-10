@@ -25,10 +25,6 @@ android {
         jvmTarget = '11'
     }
 
-    sourceSets {
-        main.java.srcDirs += 'src/main/kotlin'
-    }
-
     defaultConfig {
         minSdkVersion 21
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -37,4 +33,3 @@ android {
         disable 'InvalidPackage'
     }
 }
-
